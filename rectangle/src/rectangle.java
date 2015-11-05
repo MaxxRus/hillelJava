@@ -46,7 +46,41 @@ public class rectangle {
                 System.out.println("Yor input not integer. Try again");
             }
         }
-        //for
+        int i, j;
+        for (i = 0; i < a; i++) {
+            if (i == 0) {
+                for (j = 0; j < b; j++) {
+                    if (j < b ) {
+                        System.out.print('*');
+                    } else {
+                        System.out.println('*');
+                    }
 
+                }
+            }
+            if (i >= 0 || i < a) {
+                for (j = 0; j < b; j++) {
+                    if (i == 0 && i == a ) {
+                        if (i == a ) {
+                            System.out.println('*');
+                        } else {
+                            System.out.print('*');
+                        }
+                    } else {
+                        System.out.print(' ');
+                    }
+                }
+            }
+            if (i == a ) {
+                for (j = 0; j < b; j++) {
+                    if (j == b){
+                        System.out.println('*');
+                    }
+                    System.out.print('*');
+                }
+            }
+        }
     }
+
 }
+
