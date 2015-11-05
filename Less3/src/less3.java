@@ -7,21 +7,39 @@ public class less3 {
 
 
     public static void main(String[] args) {
-        double res = add(2,3);
-       // System.out.println(res);
-        double res1 =add(2.2, 3.2);
-       // System.out.println(res1);
-        int i =10;
-        int[] arr;
-        int[] arr1;
-        arr = new int[i];
-        System.out.println(arr[1]);
-        arr[0] = 100;
-        System.out.println(arr[0]);
-        arr1 = new int[]{1,2,3};
+//        double res = add(2,3);
+//       // System.out.println(res);
+//        double res1 =add(2.2, 3.2);
+//       // System.out.println(res1);
+//        int i =10;
+//        int[] arr;
+//        int[] arr1;
+//        arr = new int[i];
+//        System.out.println(arr[1]);
+//        arr[0] = 100;
+//        System.out.println(arr[0]);
+//        arr1 = new int[]{1,2,3};
+//        for (int j = 0; j < arr.length; j++){
+//            System.out.println(arr1[j]);
+//        }
+//        for (int j : arr1) {
+//            System.out.println(j);
+//        }
 
-        int[] test new int[20];
-        arr.length
+
+        int [][] arr2 =  new int [5][5];
+        arr2[0][1]= 3;
+        for(int[] a : arr2){
+            for(int elem:a){
+                System.out.print(elem);
+            }
+            System.out.print("\n");
+        }
+
+
+
+        //int[] test new int[20];
+        //arr.length
 
 
 
