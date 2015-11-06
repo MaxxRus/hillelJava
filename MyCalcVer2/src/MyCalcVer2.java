@@ -67,9 +67,8 @@ public class MyCalcVer2 {
                             return;
                         }
                     }
-                    System.out.println("Yor input not number. Try again");
                 }
-                System.out.println("Yor input not number. Try again");
+                System.out.println("Yor input not operand. Try again");
             }
         }
 
@@ -91,7 +90,6 @@ public class MyCalcVer2 {
                 }
                 break;
         }
-
 
 
     }
