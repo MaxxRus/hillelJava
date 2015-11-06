@@ -15,7 +15,7 @@ public class rectangle {
 
             if (in.hasNextInt()) {
                 a = in.nextInt();
-                System.out.println(a);
+                //System.out.println(a);
                 break;
             } else {
                 if (in.hasNext()) {
@@ -34,7 +34,7 @@ public class rectangle {
 
             if (in.hasNextInt()) {
                 b = in.nextInt();
-                System.out.println(b);
+                //System.out.println(b);
                 break;
             } else {
                 if (in.hasNext()) {
@@ -46,39 +46,15 @@ public class rectangle {
                 System.out.println("Yor input not integer. Try again");
             }
         }
-        int i, j;
-        for (i = 0; i < a; i++) {
-            if (i == 0) {
-                for (j = 0; j < b; j++) {
-                    if (j < b ) {
-                        System.out.print('*');
-                    } else {
-                        System.out.println('*');
-                    }
-
-                }
-            }
-            if (i >= 0 || i < a) {
-                for (j = 0; j < b; j++) {
-                    if (i == 0 && i == a ) {
-                        if (i == a ) {
-                            System.out.println('*');
-                        } else {
-                            System.out.print('*');
-                        }
-                    } else {
-                        System.out.print(' ');
-                    }
-                }
-            }
-            if (i == a ) {
-                for (j = 0; j < b; j++) {
-                    if (j == b){
-                        System.out.println('*');
-                    }
+        for (int i = 0; i < a; i++) {
+            for (int j = 0; j < b; j++) {
+                if ((i == 0) || (i == a-1) || (j == 0) || (j == b-1)) {
                     System.out.print('*');
+                } else {
+                    System.out.print(' ');
                 }
             }
+            System.out.print('\n');
         }
     }
 
