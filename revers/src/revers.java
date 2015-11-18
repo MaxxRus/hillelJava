@@ -14,7 +14,7 @@ public class revers {
         char[] numberChar = numberString.toCharArray();
         char[] res = new char[numberChar.length];
 
-        for (int i = 0; i <= numberChar.length-1; i++){
+        for (int i = 0; i < numberChar.length; i++){
             res[i] = numberChar[numberChar.length-1-i];
             System.out.print(res[i]);
         }
