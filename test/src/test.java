@@ -3,9 +3,9 @@
  */
 public class test {
     public static void main(String[] args) {
-        double year = 1.5;
-        int month;
-        month = (int)12*year;
+        int a = 5;
+        int b = 3;
+
         System.out.println(month);
 
     }
