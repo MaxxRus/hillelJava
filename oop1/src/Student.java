@@ -7,6 +7,12 @@ public class Student extends Person{
         super(1);
         System.out.println("student const");
     }
+    Object object = new Object();
+
+    public Object getObject() {
+
+        return object.;
+    }
 
     public void setMarks(int[] marks){
         this.marks = marks;
