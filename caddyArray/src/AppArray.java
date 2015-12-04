@@ -3,8 +3,9 @@
  */
 public class AppArray {
     public static void main(String[] args) {
-        myArray test = new myArray(3);
-        System.out.println(test.getMyArray());
+        MyArrayInt[] test = new MyArrayInt[5];
+        test.
+        
 
     }
 }
